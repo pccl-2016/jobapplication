@@ -78,6 +78,8 @@
 					<g:item value="bachelor">Bachelor's</g:item>
 					<g:item value="noDegree">No Degrees</g:item>
 				</g:ListBox>
+				<g:Label visible="false" ui:field="degreeFeedback">Please select
+				from the dropdown list your degree.</g:Label>
 			</section>
 
 			<section>
@@ -89,9 +91,13 @@
 
 			<section>
 				<g:Button ui:field="submit">Submit</g:Button>
+				
+<!-- 				hacked submit -->
+				<g:Button ui:field="hackedSubmit" styleName="hacked-button">Hacked Submit</g:Button>
 			</section>
 		</main>
 
+	<header>abc</header>
 
 	</g:HTMLPanel>
 </ui:UiBinder> 

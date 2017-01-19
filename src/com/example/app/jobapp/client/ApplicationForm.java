@@ -63,6 +63,8 @@ public class ApplicationForm extends Composite {
 
 	public ApplicationForm() {
 		initWidget(uiBinder.createAndBindUi(this));
+		
+	
 	}
 
 	@UiHandler("submit")
